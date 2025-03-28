@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [Solution](https://github.com/Solataiwo-15/QR-Code-Generator)
-- Live Site URL: [Live Site](https://simple-to-do-list-web-app-pi.vercel.app/)
+- Live Site URL: [Live Site](https://qr-code-generator-ten-liart.vercel.app/)
 
 
 ### Built with
@@ -17,7 +17,7 @@
 
 - [video on HTML](https://youtu.be/916GWv2Qs08?si=JsBMLzR6ECvkX2ic) - This helped me to learn and gain insightful knowledge about HTML and how it works. I really liked this pattern and will use it going forward.
 - [Video on CSS](https://youtu.be/OXGznpKZ_sA?si=6fIG2ENTPmG7glFl) - This is an amazing video tutorial which helped me finally understand how to style my  codes professionally. I'd recommend it to anyone still learning this concept.
-[Video on JAVASCRIPT](https://www.youtube.com/watch?v=2Ji-clqUYnA) - This is a full and fundamental video that helped me alot in understanding hoq Javascript works and how to write JavaScript efficiently. I'd recommend it to anyone still learning this concept.
+- [Video on JAVASCRIPT](https://www.youtube.com/watch?v=2Ji-clqUYnA) - This is a full and fundamental video that helped me alot in understanding hoq Javascript works and how to write JavaScript efficiently. I'd recommend it to anyone still learning this concept.
 
 
 
