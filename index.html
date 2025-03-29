@@ -14,11 +14,13 @@
         <div class="options">
             <select name="" id="" class="sizeOptions">
                 <option value="100" selected>100 x 100</option>
+                <option value="150">150 x 150</option>
                 <option value="200">200 x 200</option>
-                <option value="300">300 x 300</option>
             </select>
-            <input type="color" id="BGColor" class="colorPicker">
-            <input type="color" id="FGColor" class="colorPicker">
+            <div class="colorDiv">
+                <input type="color" id="BGColor" class="colorPicker">
+                <input type="color" id="FGColor" class="colorPicker">
+            </div>
         </div>
         <div class="box">
             <button id="submit" disabled>Generate</button>
@@ -26,7 +28,7 @@
         </div>
         <div class="container"></div>
     </div>
-    
+
     <script src="app.js"></script>
 </body>
 </html>

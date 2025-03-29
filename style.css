@@ -5,12 +5,12 @@
     font-family: "poppins", sans-serif;
 }
 
-body{
+body {
     background: linear-gradient(#f3f3fb 50%, #377dff 50%);
     height: 100vh;
 }
 
-.wrapper{
+.wrapper {
     background-color: #ffffff;
     padding: 5em 4em;
     position: absolute;
@@ -70,6 +70,12 @@ select option {
 
 .selected {
     display: none;
+}
+    
+.colorDiv {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
 }
 
 .colorPicker {
@@ -133,4 +139,151 @@ select option {
 
 .hide {
     display: none;
+}
+
+@media (max-width: 480px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+    }
+    
+    body {
+        background: linear-gradient(#f3f3fb 50%, #377dff 50%);
+        /* height: 100vh; */
+    }
+    
+    .wrapper {
+        background-color: #ffffff;
+        padding: 4em 3em;
+        position: absolute;
+        width: 23em;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 0.6em;
+        box-shadow: 0 1.5em 3em rgba(3, 21, 55, 0.3);
+    }
+    
+    #userInput {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #000000;
+        padding: 0.5em 0.75em;
+        font-size: 0.75em;
+        outline: none;
+    }
+    
+    .options {
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+    
+    select {
+        appearance: none;
+        width: 8em;
+        padding: 0.5em .75em;
+        font-size: 0.9em;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        background-color: #377dff;
+        border: none;
+        color: #ffffff;
+        background-image: url('arrow.svg');
+        background-repeat: no-repeat;
+        background-size: 1.3em;
+        background-position: 6em;
+        outline: none;
+        border-radius: 0.3em;
+    }
+    
+    select::-ms-expand {
+        display: none;
+    }
+    
+    select option {
+        background-color: #ffffff;
+        color: #377dff;
+        letter-spacing: 0.06em;
+        font-weight: 400;
+        font-size: 0.9em;
+    }
+
+    .selected {
+        display: none;
+    }
+    
+    .colorDiv {
+        display: flex;
+        align-items: center;
+        gap: 1.2em;
+    }
+
+    
+    .colorPicker {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: transparent;
+        width: 2.5em;
+        height: 2.8em;
+        outline: none;
+        border: none;
+    }
+    
+    .color-picker::-webkit-color-swatch {
+        border: 0.18em solid #191f3f;
+        border-radius: 0.3em;
+    }
+    
+    .color-picker::-moz-color-swatch {
+        border: 0.18em solid #191f3f;
+        border-radius: 0.3em;
+    }
+    
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .box button, 
+    .box a {
+        font-size: 0.75em;
+        padding: 0.7em 1.4em;
+        border-radius: 0.5em;
+        margin-top: 2em;
+    }
+    
+    .box button:disabled {
+        background-color: transparent;
+        color: #a3aab6;
+        border: 0.18em solid #a3aab6;
+    }
+    
+    .box button {
+        background-color: transparent;
+        color: #377dff;
+        border: 0.18em solid #377dff;
+    }
+    .box a {
+        background-color: #377dff;
+        color: #ffffff;
+        text-decoration: none;
+        border: 0.18em solid #377dff;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5em;
+
+    }
+    
+    .hide {
+        display: none;
+    }
 }
