@@ -73,7 +73,7 @@ window.onload = () => {
     sizeChoice = 100
     sizeOptions.value = 100
     userInput.value = ''
-    BGColor.value = BGColorChoice = '#ffffff'
+    BGColor.value = BGColorChoice = '#a3aab6'
     FGColor.value = FGColorChoice = '#377dff'
     downloadBtn.classList.add('hide')
     submitBtn.disabled = true
