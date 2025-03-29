@@ -54,7 +54,7 @@ submitBtn.addEventListener('click', async () => {
         downloadBtn.classList.remove('hide')
     }
 
-    document.getElementById('userInput').value = ''; // Clear input field
+    // document.getElementById('userInput').value = ''; // Clear input field
 })
 
 userInput.addEventListener('input', () => {
